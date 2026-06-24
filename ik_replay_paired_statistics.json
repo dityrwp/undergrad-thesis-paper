@@ -1,0 +1,24 @@
+{
+  "source_lidar": "ik_scene_checkpoints_v2_unified_lidar_test_ungated_2026-06-15.json",
+  "source_fused": "ik_scene_checkpoints_v2_unified_fused_test_ungated_2026-06-15.json",
+  "policy": "score_only",
+  "n_paired_physically_completable_scenes": 74,
+  "lidar_success": 50,
+  "fused_success": 56,
+  "paired_delta": 0.08108108108108109,
+  "paired_percentile_bootstrap": {
+    "resamples": 100000,
+    "seed": 0,
+    "ci95": [
+      0.02702702702702703,
+      0.14864864864864866
+    ]
+  },
+  "paired_outcomes": {
+    "both_success": 50,
+    "lidar_only_success": 0,
+    "fused_only_success": 6,
+    "neither_success": 18
+  },
+  "exact_mcnemar_two_sided_p": 0.03125
+}
